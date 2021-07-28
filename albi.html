@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>admission Form</title>
+
+</head>
+ 
+<body bgcolor="Lightskyblue"></body>
+<h1 align="center"> ADMISSION FORM</h1>
+
+ 
+<table  cellpadding = "10">
+ 
+<!----- First Name ---------------------------------------------------------->
+<tr>
+<td><b>FIRST NAME</b></td>
+<td><input type="text" name="First_Name" placeholder= "Firstname"  maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+
+<!----- Middle Name ---------------------------------------------------------->
+<tr>
+<td><b>MIDDLE NAME</b></td>
+<td><input type="text" name="Middle_Name" placeholder="Middlename" maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr> 
+
+<!----- Last Name ---------------------------------------------------------->
+<tr>
+<td><b>LAST NAME</b></td>
+<td><input type="text" name="Last_Name" placeholder="Lastname" maxlength="30"/>
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<!----- Date Of Birth -------------------------------------------------------->
+<tr>
+<td><b>DATE OF BIRTH</b></td>
+ 
+<td>
+
+    <input type="date" id="start" name="trip-start"
+    min="1980-01-01" max="2021-12-31">
+</td>
+</tr>
+ 
+<!----- Email Id ---------------------------------------------------------->
+<tr>
+<td><b>EMAIL ID</b> </td>
+<td><input type="text" name="Email_Id" placeholder="Email" maxlength="100" /></td>
+</tr>
+ 
+<!----- Mobile Number ---------------------------------------------------------->
+<tr>
+<td><b>MOBILE NUMBER</b></td>
+<td>
+<input type="text" name="Mobile_Number" placeholder="Phone No" maxlength="10" />
+(10 digit number)
+</td>
+</tr>
+ 
+<!----- Gender ----------------------------------------------------------->
+<tr>
+<td><b>GENDER</b>></td>
+<td>
+ <input type="radio" name="Gender" value="Male" />Male
+ <input type="radio" name="Gender" value="Female" />Female
+</td>
+</tr>
+ 
+<!----- Address ---------------------------------------------------------->
+<tr>
+<td><b>ADDRESS </b> <br /><br /><br /></td>
+<td><textarea name="Address" placeholder="Address" rows="4" cols="30"></textarea></td>
+</tr>
+ 
+<!----- City ---------------------------------------------------------->
+<tr>
+<td><b>CITY</b></td>
+<td><input type="text" name="City" placeholder="City" maxlength="30" />
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<!----- Pin Code ---------------------------------------------------------->
+<tr>
+<td><b>PIN CODE</b></td>
+<td><input type="text" name="Pin_Code" placeholder="Pin_Code" maxlength="6" />
+(6 digit number)
+</td>
+</tr>
+ 
+<!----- State ---------------------------------------------------------->
+<tr>
+<td><b>STATE</b></td>
+<td><input type="text" name="State" placeholder="State" maxlength="30" />
+(max 30 characters a-z and A-Z)
+</td>
+</tr>
+ 
+<!----- Country ---------------------------------------------------------->
+<tr>
+<td><b>COUNTRY</b></td>
+<td><input type="text" name="Country" placeholder="Country" readonly="readonly" /></td>
+</tr>
+ 
+<!----- Qualification---------------------------------------------------------->
+<tr>
+<td><b>QUALIFICATION</b> <br /><br /><br /><br /><br /><br /><br /></td>
+ 
+<td>
+<table>
+ 
+<tr>
+<td align="center"><b>Sl.No.</b></td>
+<td align="center"><b>Examination</b></td>
+<td align="center"><b>Board</b></td>
+<td align="center"><b>Percentage</b></td>
+<td align="center"><b>Year of Passing</b></td>
+</tr>
+ 
+<tr>
+<td>1</td>
+<td>Class X</td>
+<td><input type="text" name="ClassX_Board" maxlength="30" /></td>
+<td><input type="text" name="ClassX_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassX_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+<tr>
+<td>2</td>
+<td>Class XII</td>
+<td><input type="text" name="ClassXII_Board" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_Percentage" maxlength="30" /></td>
+<td><input type="text" name="ClassXII_YrOfPassing" maxlength="30" /></td>
+</tr>
+ 
+
+</table>
+ 
+</td>
+</tr>
+ 
+<!----- Course ---------------------------------------------------------->
+<tr>
+<td><b>COURSES</b><br /><b>APPLIED FOR</b></td>
+<td>
+
+<input type="radio" name="Course_BCA" value="BCA">BCA
+
+<input type="radio" name="Course_BCom" value="B.Com">B.Com
+
+<input type="radio" name="Course_BSc" value="B.Sc">B.Sc
+
+<input type="radio" name="Course_BA" value="B.A">B.A
+</td>
+</tr>
+ 
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+
+
+</form>
+ 
+</body>
+</html>
